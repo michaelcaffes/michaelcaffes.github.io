@@ -1,0 +1,153 @@
+body{
+  background-image: url('https://i.imgur.com/xALx5Sm.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #181818;
+}
+
+#header{
+  transition-property: text-shadow;
+  transition-duration: .5s;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.block{
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  background-image: url('http://i.imgur.com/8j1zP8k.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #181818;
+  display: block;
+  transition-property: height, color, border-color, text-shadow, background-color, box-shadow;
+  transition-duration: .25s;
+  overflow: hidden;
+}
+
+.interior{
+  width: 100%;
+  height: 100px;
+  opacity: 1;
+  margin: 0px;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+
+.button{
+  width: 200px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border: 5px solid white;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  background-color: #282828;
+  display: inline-block;
+  transition-property: border, text-shadow, font-weight, box-shadow, background-color, margin;
+  transition-duration: .1s;
+  box-shadow: inset 0px 0px 20px 5px #444444;
+  cursor:pointer;
+  text-shadow:0px -1px 0px #333333;
+}
+
+.button:hover{
+  transition-property: border, text-shadow, font-weight, box-shadow, background-color, margin;
+  transition-duration: .1s;
+  box-shadow: inset 0px 0px 20px 5px #67809F;
+  vertical-align: top;
+}
+
+.button:active{
+  vertical-align: top;
+  margin-top: 30px;
+  transition-property: margin;
+  transition-duration: .05s;
+}
+
+#title{
+  width: 250px;
+  margin-top: 25px;
+  transition-property: border, text-shadow, font-weight, box-shadow, background-color, margin;
+  transition-duration: .05s;
+}
+
+#b1{
+  width: 500px;
+  margin-top: 0px;
+  box-shadow: inset 0px 0px 20px 2.5px #67809F;
+}
+
+#desktop{
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  float: left;
+}
+
+#project{
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  float: right;
+  margin-right: 30px;
+}
+
+#breturn{
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  float: left;
+  margin-left: 150px; 
+}
+
+#b2{
+  width: 750px;
+  height: 0px;
+}
+
+.left{
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  float: left;
+}
+
+.middle{
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  float: left;
+  margin-left: 45px;
+  margin-right: 0px;
+}
+.right{
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  float: right;
+  margin-right: 30px;
+  margin-left: 0px;
+}
